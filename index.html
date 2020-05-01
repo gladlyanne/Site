@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name= "author" content="Anna Gladkovska">
+  <meta name="description" content="This is my personal homework page.">
+  <meta name="keywords" content="HTML, CSS, JavaScript, project, homework">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Personal Project</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css"> 
+    <link rel="stylesheet" type="text/css" href="mainstyle.css"> 
+</head>
+
+
+ <body>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-light" id="navigation">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active" id="navi">
+        <a class="nav-link"  href="#table">About Me<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="#films">Favourites</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="#words">Words</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#qq">Quote</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link"  href="#city_container">City</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="#dbutton">3D</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+
+  <div class="jumbotron-fluid text-center" id="header">
+  <p><img src="images/header2.png" class="img-fluid" alt="My Illustration for header"></p>
+  <label class="switch">
+     <input type="checkbox" id="chbx" onchange="checkbox_changed()">
+      <span class="slider round"></span>
+       </label>
+  </div>
+</header>
+
+<main>  
+<div class="container">
+  <div class="row">
+    <div class="col-md-6" id = "am">
+       <h2 id = "about_me">ABOUT ME</h2>
+    </div>
+    <div class="col-md-6" id ="table_wrap">
+      <h4>Anna Gladkovska</h4>
+      <a href="mailto:anngladkovskaya2000@gmail.com" target="_blank"> 
+        <p>anngladkovskaya2000@gmail.com</p></a>
+<table lang = "ru" class="table" id ="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Subject</th>
+      <th scope="col">Teacher</th>
+      <th scope="col">Mark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Основы компьютерной алгебры </td>
+      <td>Сидоренко</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>История науки и техники </td>
+      <td>Ларин</td>
+      <td>99</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Численные методы </td>
+      <td>Матюшенко</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Базы Данных </td>
+      <td>Симонова</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Интеллектуальный анализ данных  </td>
+      <td>Мартыненко</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Компьютерная графика </td>
+      <td>Сидоренко</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td> Физическое воспитание </td>
+      <td>Борейко</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table>
+     </div>
+</div>
+</div>
+
+
+
+<div class="container" >
+  <div class="row">
+ <div class="col-md-6"><h2 id="films" >5 FAVOURITE FILMS/SERIES</h2></div>
+ <div class="col-md-6">
+   <div id="sliderFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#sliderFade" data-slide-to="0" class="active"></li>
+        <li data-target="#sliderFade" data-slide-to="1"></li>
+        <li data-target="#sliderFade" data-slide-to="2"></li>
+        <li data-target="#sliderFade" data-slide-to="3"></li>
+        <li data-target="#sliderFade" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="images/films/f1.jpg" class="d-block w-100" alt="Lord of the Rings">
+        <div class="carousel-caption  d-md-block">
+    <a href = "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" target="_blank"><p>Lord of the Rings</p></a>
+  </div>
+        </div>
+        <div class="carousel-item">
+        <img src="images/films/f2.jpg" class="d-block w-100" alt="Game of Thrones">
+        <div class="carousel-caption  d-md-block">
+    <a href = "https://www.hbo.com/game-of-thrones" target="_blank"><p>Game of Thrones</p></a>
+  </div>
+        </div>
+        <div class="carousel-item">
+        <img src="images/films/f3.jpg" class="d-block w-100" alt="Berserk">
+        <div class="carousel-caption  d-md-block">
+    <a href = "https://yummyanime.club/catalog/item/berserk" target="_blank"><p>Berserk</p></a>
+  </div>
+        </div>
+        <div class="carousel-item">
+        <img src="images/films/f4.jpg" class="d-block w-100" alt="Pan's Labyrinth">
+        <div class="carousel-caption  d-md-block">
+    <a href = "https://en.wikipedia.org/wiki/Pan%27s_Labyrinth" target="_blank"><p>Pan's Labyrinth</p></a>
+  </div>
+        </div>
+
+
+        <div class="carousel-item">
+            <img src="images/films/f5.jpg" class="d-block w-100" alt="Howl`s Moving Castle">
+              <div class="carousel-caption  d-md-block">
+    <a href = "https://en.wikipedia.org/wiki/Howl%27s_Moving_Castle_(film)" target="_blank"><p>Howl`s Moving Castle</p></a>
+  </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#sliderFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#sliderFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+   </div>
+ </div>
+</div>
+
+
+
+
+<div class="container">
+  <div class="row">
+  <div class="col-md-6">
+  <div class="jumbotron-fluid text-center">
+  <p><img src="images/stickerpackweb.png" class="img-fluid" id="stickers" alt="My emotions"></p> </div>
+  </div>
+   <div class="col-md-6" >
+    <section id="words">
+      <h2>3 WORDS ABOUT ME</h2>
+
+      <p >CREATIVE</p>
+      <p >STUBBORN</p>
+      <p >HARDWORKING</p>
+    </section>
+    </div>
+ </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+  
+      <div class="col-md-6" id ="qq">
+      
+   <blockquote class="blockquote text-center" id="quite">
+  <p class="mb-0" >“I haven’t failed. I’ve just found 10,000 ways that won’t work.”</p>
+  <footer class="blockquote-footer">Thomas Edison <cite title="Source Title">Edison — The Fabulous Drone, Vol. XLVI, p. 52</cite></footer>
+</blockquote>
+
+    </div>
+
+    <div class="col-md-6">
+
+   <div class="jumbotron-fluid text-center" id="tarei"><img src="images/mandala.png" class="img-fluid" id = "mandala" alt="Illustration"></div>
+
+  </div>
+ </div>
+</div>
+
+
+<div class="container" id ="city_container" >
+  <div class="row">
+    <div class="col-md-6">
+
+
+      <div id="sliderFade3" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#sliderFade3" data-slide-to="0" class="active"></li>
+        <li data-target="#sliderFade3" data-slide-to="1"></li>
+        <li data-target="#sliderFade3" data-slide-to="2"></li>
+        <li data-target="#sliderFade3" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/с1.jpg" class="d-block w-100" alt="Kharkiv painting">
+             <div class="carousel-caption  d-md-block">
+    <p>Kharkiv 1</p>
+  </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/с2.jpg" class="d-block w-100" alt="Kharkiv drawing">
+              <div class="carousel-caption  d-md-block">
+    <p>Kharkiv 2</p>
+  </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/с3.jpg" class="d-block w-100" alt="Kharkiv oil painting">
+              <div class="carousel-caption  d-md-block">
+    <p>Kharkiv 3</p>
+  </div>
+        </div>
+         <div class="carousel-item">
+            <img src="images/с4.jpg" class="d-block w-100" alt="Kharkiv graphics">
+              <div class="carousel-caption  d-md-block">
+    <p>Kharkiv 4</p>
+  </div>
+        </div>
+
+        
+    </div>
+    <a class="carousel-control-prev" href="#sliderFade3" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#sliderFade3" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+   
+
+   </div>
+
+<div class="col-md-6">
+  <section id="kharkiv">
+      <h2>KHARKIV FACTS</h2>
+      <p>Kharkiv was the most populated city of the Soviet Union, which was occupied during the war. May 1, 1941, the population of the city was 901,000 people; in September 1941, together with the evacuees, it amounted to 1 million 500 thousand. In August 1943, after the liberation, the population of Kharkiv was only about 180-190 thousand people. August 23, the liberation day of Kharkiv, has become a city holiday. Today, it is celebrated as the City Day of Kharkiv.</p>
+
+ <p>As a result of the war, Kharkiv was one of the most destroyed cities in Europe. Dozens of monuments of architecture were destroyed. In 1946, a new general plan of the city was adopted. Ruins on the sites of destroyed buildings were reminding the locals about the war until the mid-1960s.</p>
+</section>
+    </div>
+
+ </div>
+</div>
+
+<div class="jumbotron-fluid text-center" id="footer_image">
+ 
+  <p><img src="images/footer.jpg" class="img-fluid" alt="My Illustration fot footer" ></p>
+  <span id="dbutton">
+   
+      <button type="button" class="btn btn-primary" onclick="location.href='tree2.html';">SHOW 3D!</button>
+    
+      
+      <button type="button" class="btn btn-primary" onclick="location.href='3dweb.html';">SHOW 3D2!</button>
+   
+     
+      <button type="button" class="btn btn-primary"  onclick="location.href='treegtf.html';">SHOW 3D3!</button>
+  </span>
+
+</div>
+
+</main>
+
+<footer>
+
+  <p>
+  <span> E-mail: <a href="mailto:anngladkovskaya2000@gmail.com" target="_blank">anngladkovskaya2000@gmail.com</a> </span>
+  <span>Instagram: <a href="https://www.instagram.com/kudriaken/?hl=ru" target="_blank">@kudriaken</a> </span> 
+  <span> Artstation: <a href= "https://www.artstation.com/kudriaken" target="_blank">Kudriaken</a> </span>
+  <span> 2020, Kharkiv,Ukraine </span>
+   </p>
+
+</footer>
+
+
+
+<script >
+    var checkbox = document.getElementById("chbx");
+
+    function checkbox_changed() {
+        if (checkbox.checked == true) {
+          var root = document.documentElement;
+
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+    document.getElementById("table").style.color = "white";
+    document.getElementById("navigation").style.color = "white";
+   document.getElementByClass("navbar-toggler").style.color = "red";
+
+        } 
+        else {
+            
+            var root = document.documentElement;
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+    document.getElementById("table").style.color = "black";
+        }
+    }
+$(function () {
+  // метод cycle
+  $('.btn').click(function () {
+    var action = $(this).attr('data-action');
+    if (action.indexOf('to') >= 0) {
+      var action = parseInt(action.substring(3))-1;
+    }
+    $('#carousel').carousel(action);
+  });
+});
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+ </body>
+ </html>

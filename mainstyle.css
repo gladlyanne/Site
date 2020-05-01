@@ -1,0 +1,396 @@
+h1, h2, h3, h4, p{
+  text-align: center !important;
+}
+
+body{cursor: url("images/cursor.png"), auto;}
+a  { cursor: url("images/cursor2.png"), pointer; 
+color:#ec9468;}
+
+.col-md-6{ padding-right:0px; padding-left: 0px; }
+
+.nav-link{
+  color:#ec9468 !important;
+}
+.navbar-light .navbar-toggler {
+  border-color: #ec9468 !important;
+}
+.navbar-toggler-icon{
+background-image: url("images/toggler.png")!important;
+}
+
+
+@media (min-width: 768px){
+footer span{
+  font-size: 0.8em;
+ margin: 0 2em 0 2em;
+}
+
+.img-fluid{
+  width: 100%;
+}
+.col-md-6 #films{
+   position: relative !important;
+      
+      margin: 53% 0 0 0;}
+
+#sliderFade a p{
+  font-size: 2em;
+  color: white;}
+
+ #tarei{
+ background-image: url("images/tarei.png") !important;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;}
+ .col-md-6 #about_me{
+  position: relative!important;
+  margin: 50% 0 0 0;
+font-size: 1.5em;}
+
+ #am{
+  background-image: url("images/airtan.jpg") !important;
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  color:white;}
+ #words{
+  position: relative !important;
+    top: 40% !important;
+    left: 2% !important;
+line-height: 2em;}
+
+#quite{
+  position: relative !important;
+    
+    margin: 44% 0 0 0 !important;}
+
+#kharkiv{
+position: relative !important;
+
+    margin: 24% 0 0 0 !important;}
+.carousel-inner p{
+  font-size:2em;
+}
+
+#kharkiv p{
+  text-align: justify !important;
+  text-indent: 2em;
+  padding-left: 2em;}
+
+#stickers{ position: relative !important;
+    margin: 10% 0 0 0 !important; }
+
+#dbutton{
+  position: absolute;
+  left:29%;
+  margin: -25% 0 0 0;}
+
+.switch {
+  position: absolute;
+  top: 13%; 
+  right: 2.5%;
+  padding-bottom: 0px;
+  display: inline-block;
+  width: 60px;
+  height: 34px;}
+}
+
+
+
+@media (max-width: 767px){
+  footer span {
+  font-size: 0.8em;
+  margin: 0 1em 0 1em;}
+ #am{display: none;}
+
+#quite{
+  position: relative !important;
+   padding: 5px;
+    
+    margin: 15% 0 5% 0 !important;
+}
+ #words{
+  position: relative !important;
+   margin: 0 0 0 0!important;
+}
+#kharkiv{
+position: relative !important;
+    
+    margin: 10% 0 5% 0 !important;
+}
+#kharkiv p{
+  text-align: justify !important;
+  padding: 8px;
+}
+
+.carousel-inner p{
+  font-size:2em;
+  color:white;
+}
+#dbutton{
+  position: absolute;
+  left:25%;
+  margin: -25% 0 0 0;
+}
+.switch {
+  position: relative;
+  top: 16%; 
+
+  padding-bottom: 0px;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ec9468 !important;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.col-md-6{
+  padding-right: 2em;
+  padding-left: 1em;
+}
+
+  }
+
+
+
+
+
+@media (max-width: 575px ){
+.container{
+    overflow: hidden !important;}
+#table{padding: 9% !important;}
+td{ padding: 2% !important;
+  font-size: .8em;}
+#dbutton{position: relative;
+  left:0%;
+ margin: -25% 0 0 0;}
+#dbutton .btn{width: 25%;
+  height: 5%;
+  font-size: .5em;}
+}
+
+
+@media (max-width: 320px){
+   .container{
+    overflow: hidden !important;}
+  footer span {
+  font-size: 0.8em;
+  margin: 0 1em 0 1em;}
+#footer_image{
+  width: 120% !important;}
+
+#header{width: 120%;}
+#quite{position: relative !important;
+   padding: 5px;
+    
+    margin: 15% 0 5% 10% !important;}
+ #words{
+  position: relative !important;
+   margin: 0 0 0 0!important;}
+#table_wrap p{
+   font-size: .9em;
+   width:70% !important;}
+#table{
+  margin-left: -10%;}
+td{padding: 1% !important;
+  font-size: .6em;}
+
+th{font-size: .8em;}
+#kharkiv{position: relative !important;
+      margin: 10% 0 5% 0 !important;}
+#kharkiv p{text-align: justify !important;
+  padding: 8px;}
+.carousel-inner p{
+  font-size:1.5em;}
+#dbutton{
+  position: absolute;
+  left:27%;
+  margin: -35% 0 0 0;}
+
+.navbar-toggler{
+ margin-right: -14%!important;}
+
+.col-md-6{margin-left: 15%;
+margin-right: 0;}
+
+#about_me{margin-left: 5%;}
+
+  }
+
+
+@media (min-width: 768px){
+#dbutton{
+  position: absolute;
+  left:32%;
+  margin: -25% 0 0 0;
+}
+#kharkiv{position: relative !important;
+margin: 1% 0 5% 0 !important;}
+
+
+}
+
+
+@media (min-width: 1400px){
+#dbutton{
+  position: absolute;
+  left:39%;
+  margin: -25% 0 0 0;
+}
+}
+
+@media (min-width: 1921px){
+
+  .row{
+margin-left: -15%;
+width: 130%;
+}
+
+.img-fluid{
+  width: 100%;
+}
+
+#dbutton{
+  margin-left: -1.5%; 
+  width: 10%;
+  height: 10%;
+  font-size: 1.5em;
+}
+
+p{
+  font-size: 1.5em;
+}
+h2{
+  font-size: 3em;
+}
+
+
+td{
+  font-size: 1.5em;
+}
+
+th{
+  font-size: 1.8em;
+}
+
+h4{
+  font-size: 2.5em;
+}
+
+#navbarText{
+  font-size: 1.5em;
+}
+
+#dbutton{
+  position: absolute;
+  left:45%;
+  margin: -25% 0 0 0;
+}
+}
+
+
+
+
+#city_container{
+  margin-bottom:2em;
+}
+
+footer p{
+  text-align: center !important;
+}
+
+footer a {
+  color:#35546d;
+}
+a:hover{
+  text-decoration: none;
+  text-shadow:   0 0 1em yellow;
+}
+
+
+
+#stickers{
+  padding:5%;
+
+}
+  #mandala:hover{
+animation: rot_m 5s ease-in 0s 1 normal; 
+  }
+
+  @keyframes rot_m{
+    from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}}
+
+#words p:hover{
+  animation: b 1s ease-in-out 0s 1 normal;
+}
+
+ @keyframes b{
+    from {transform:scale(1);}
+  to {transform:scale(1.5);}
+
+}
+
+
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #ffe785;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
